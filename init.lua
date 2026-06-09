@@ -131,6 +131,9 @@ vim.o.smartcase = true
 -- Keep signcolumn on by default
 vim.o.signcolumn = 'yes'
 
+-- Visually indicate the 81st column
+vim.o.colorcolumn = '81'
+
 -- Decrease update time
 vim.o.updatetime = 250
 
